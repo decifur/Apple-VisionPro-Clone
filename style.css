@@ -190,3 +190,47 @@ html,body{
     color: #fff;
     font-size: 2vw;
 }
+
+#page5{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left5{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left5>h1{
+    font-size: 1.8vw;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+.right5{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 5vw;
+}
+.right5>h3{
+    font-size: 1.2vw;
+    width: 90%;
+    color: #484848d7;
+}
+.right5>button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff823d;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 50px;
+    font-size: 1vw;
+    margin-top: 1.5vw;
+}
